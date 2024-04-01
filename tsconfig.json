@@ -19,7 +19,8 @@
       {
         "transform": "typescript-transform-paths",
       }
-    ]
+    ],
+    "noUncheckedIndexedAccess": true,
   },
   "exclude": ["tests/**/*"]
 }

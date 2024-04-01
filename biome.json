@@ -7,20 +7,29 @@
 		"enabled": true,
 		"rules": {
 			"recommended": true
-		},
-		"ignore": ["dist/**/*", "node_modules/**/*"]
+		}
 	},
 	"formatter": {
-		"lineWidth": 100,
-		"ignore": ["dist/**/*", "node_modules/**/*"]
+		"lineWidth": 110
 	},
 	"javascript": {
 		"formatter": {
 			"quoteStyle": "single",
-			"semicolons": "asNeeded"
+			"semicolons": "asNeeded",
+			"trailingComma": "all",
+			"bracketSameLine": true,
+			"jsxQuoteStyle": "single",
+			"arrowParentheses": "always",
+			"bracketSpacing": true
 		}
 	},
 	"files": {
-		"ignore": ["dist/**/*", "node_modules/**/*"]
+		"include": [
+			"src/**/*"
+		],
+		"ignore": [
+			"node_modules/**/*",
+			"dist/**/*"
+		]
 	}
 }

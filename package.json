@@ -16,7 +16,7 @@
   "author": "Fabian Montoya @montoyafabian28",
   "license": "ISC",
   "devDependencies": {
-    "@biomejs/biome": "1.5.3",
+    "@biomejs/biome": "1.6.3",
     "@types/node": "^20.11.24",
     "ts-patch": "3.1.2",
     "tsx": "4.7.1",

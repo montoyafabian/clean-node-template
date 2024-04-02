@@ -22,5 +22,6 @@
     ],
     "noUncheckedIndexedAccess": true,
   },
-  "exclude": ["tests/**/*"]
+  "exclude": ["tests/**/*"],
+  "include": ["src/**/*"]
 }

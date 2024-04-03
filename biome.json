@@ -24,10 +24,6 @@
 		}
 	},
 	"files": {
-		"include": [
-			"src/**/*",
-			"tests/**/*"
-		],
 		"ignore": [
 			"node_modules/**/*",
 			"dist/**/*"

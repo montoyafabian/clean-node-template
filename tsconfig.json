@@ -28,6 +28,5 @@
 				"afterDeclarations": true
 			}
 		]
-	},
-	"exclude": ["tests/**/*"]
+	}
 }
